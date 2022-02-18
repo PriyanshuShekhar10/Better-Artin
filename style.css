@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,300,200);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.6em;
+  font-weight: 300;
+  color: #555;
+}
+
+p {
+  margin-bottom: 2em;
+}
+a{
+  transition: font-size 0.5s;
+}
+a:hover{
+  font-size: 130%;
+}
+
+header {
+  border-bottom: solid 1px #e0e0e0;
+  margin: 0 0 20px 0;
+}
+
+.pageTitle,
+.pageSubTitle {
+  font-family: 'Titillium', sans-serif;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.pageTitle {
+  color: #FF7600;
+}
+
+.pageTitle {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 2em;
+}
+
+.pageSubTitle {
+  margin-bottom: 1em;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+.background {
+  background: grey repeat;
+  background-size: 100% auto;
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top: 0;
+  left: 0;
+  z-index: -1
+}
+
+.wrapper {
+  width: 520px;
+  padding: 40px;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow:  0px 3px 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+.slogan {
+  position: fixed;
+  display: block;
+  top: 700px;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background: #222;
+}
+
+.sloganTitle {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  color: #fff;
+
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+}
+body
+{
+  background:#f1f1f1
+}
+ul.tabs
+{
+  list-style:none;
+  margin:0;
+  padding:0
+}
+ul.tabs li
+{
+  display:inline-block;
+  padding:5px 8px;
+  margin-bottom:-1px;
+  border:solid 1px #ccc;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  background:#f1f1f1
+}
+/* the margin-bottom makes the tab and container borders overlap */
+ul.tabs li.active
+{
+  border-bottom:solid 1px #fff;
+  background:#fff
+}
+#container
+{
+  padding:20px;
+  border:solid 1px #ccc;
+  background:#fff
+}
+#container section
+{
+  display:none
+}
+#container section:first-child
+{
+  display:block
+}
+/* showing the first section by default */
+
+
+
+.container{
+    height: ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+
+}
+.icons a{
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 40px;
+    background: #fff;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    background-image: linear-gradient(#fff 50%, red 50%);
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+    transition: background-position 0.5s, color 0.5s;
+
+}
+.icons a:nth-child(1){
+    color: #161B22;
+    background-image: linear-gradient(#fff 50%, #161B22 50%);
+
+}
+.icons a:nth-child(2){
+    color: #0A66C2;
+    background-image: linear-gradient(#fff 50%, #0A66C2 50%);
+
+}
+.icons a:nth-child(3){
+    color: #03a9f5;
+    background-image: linear-gradient(#fff 50%, #03a9f5 50%);
+}
+.icons a:hover{
+    background-position: 0% 100%;
+    color: #fff;
+}
+.nav {
+    text-align: center;
+  font-size: 70%;
+}
