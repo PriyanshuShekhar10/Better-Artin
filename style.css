@@ -13,12 +13,7 @@ body {
 p {
   margin-bottom: 2em;
 }
-a{
-  transition: font-size 0.5s;
-}
-a:hover{
-  font-size: 130%;
-}
+
 
 header {
   border-bottom: solid 1px #e0e0e0;
