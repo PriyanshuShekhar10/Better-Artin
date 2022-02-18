@@ -49,11 +49,13 @@ header {
 }
 
 .background {
-  background: grey repeat;
+  background: url('https://c.tenor.com/Hc1TP4yQ890AAAAC/abstract.gif') repeat;
   background-size: 100% auto;
+  border-radius: solid black 10px;
+  filter: blur(2px);
   position: fixed;
   width: 100%;
-  height: 300%;
+  height: 130%;
   top: 0;
   left: 0;
   z-index: -1
