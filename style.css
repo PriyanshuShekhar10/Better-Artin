@@ -49,7 +49,7 @@ header {
 }
 
 .background {
-  background: url('https://c.tenor.com/Hc1TP4yQ890AAAAC/abstract.gif') repeat;
+  background: grey repeat;
   background-size: 100% auto;
   border-radius: solid black 10px;
   filter: blur(2px);
