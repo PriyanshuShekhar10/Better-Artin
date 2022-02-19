@@ -48,7 +48,8 @@ header {
 }
 
 .background {
-  background: powderblue repeat;
+  background: #6AC582
+ repeat;
   background-size: 100% auto;
   position: fixed;
   width: 100%;
