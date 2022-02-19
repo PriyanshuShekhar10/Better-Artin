@@ -173,10 +173,7 @@ ul.tabs li.active
     background-position: 0% 100%;
     color: #fff;
 }
-.nav {
-    text-align: center;
-  font-size: 70%;
-}
+
 
 
 table {
@@ -296,4 +293,9 @@ body{
 .counter{
   padding:8px;
   color:#ccc;
+}
+
+.nav {
+    text-align: center;
+  font-size: 70%;
 }
